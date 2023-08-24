@@ -13,7 +13,7 @@ window.onload = function() {
     document.getElementById("suitBottom").textContent = randomSuits;
 
     let cardNumber = [
-      "1",
+      "A",
       "2",
       "3",
       "4",
