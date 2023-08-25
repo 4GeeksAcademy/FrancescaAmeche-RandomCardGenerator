@@ -9,8 +9,12 @@ window.onload = function() {
   function randomCardGenerator() {
     let cardSuits = ["♦", "♥", "♠", "♣"];
     let randomSuits = cardSuits[Math.floor(Math.random() * cardSuits.length)];
-    document.getElementById("suitTop").textContent = randomSuits;
-    document.getElementById("suitBottom").textContent = randomSuits;
+
+    document.getElementById("suitTop").innerHTML = randomSuits;
+    document.getElementById("suitBottom").innerHTML = randomSuits;
+
+    let card = document.getElementById("card");
+    card.classList.add(randomSuits);
 
     let cardNumber = [
       "A",

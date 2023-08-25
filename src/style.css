@@ -10,3 +10,13 @@
 #suitBottom {
   rotate: 180deg;
 }
+
+#card.♠,
+#card.♣ {
+  color: black;
+}
+
+#card.♥,
+#card.♦ {
+  color: red;
+}
